@@ -31,26 +31,31 @@ body {
    
 }
 
-#h3 {
+/* #h3 {
+    text-shadow: 1in;
     
     color: brown;
   display: inline-block;
   margin: 30px;
   margin-left: 25%; 
 
-}
+} */
 
 #h3:hover {
     color: rgb(107, 123, 211);
     width: 300px;
     
-    transition: width 2s, height 2s, background-color 3s, transform 7s;
+    ;
     
     
 }
 
 #scroll{
-    color: red;
+    transition: width 2s, height 5s, background-color 7s, transform 7s;
+    text-shadow: 1in;
+
+    color: brown;
+    
 }
 
 /* .box {
@@ -110,8 +115,10 @@ body {
 
 
 #bt1 {
+    width: 2in;
     margin-top: 25px;
 padding: 8px ; 
+margin-left: 40px;
 border-radius: 10px;
 border-color: rgb(163, 175, 243) ;
 }
@@ -120,20 +127,22 @@ border-color: rgb(163, 175, 243) ;
 
 #bt1:hover{
     color: white;
-    background-color: #885df1;
+    background: radial-gradient(circle at 10% 20%, rgb(163, 175, 243) 0%, rgb(220, 182, 232) 100.2%);
     border: none;
 }
 
 
 #bt2:hover{
     color: white;
-    background-color: #885df1;
+    background: radial-gradient(circle at 10% 20%, rgb(163, 175, 243) 0%, rgb(220, 182, 232) 100.2%);
     border: none;
 }
 
 
 
 #bt2 {
+    margin-left: 40px;
+    width: 2in;
     margin-top: 25px;
 padding: 8px ; 
 border-radius: 10px;
