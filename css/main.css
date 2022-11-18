@@ -12,7 +12,9 @@ body {
 }
 
 .container {
-    
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   border-radius: 20px;
   margin-top: 22px;
   margin-bottom : 30px ;
@@ -25,6 +27,7 @@ body {
 }
 
 .inputs {
+  display: flex;
   margin-top: 5in;
   margin-left: 9%;
   margin-top: 12%;
@@ -99,10 +102,10 @@ body {
 }
 
 #he {
-  text-size-adjust: 3px;
+  font-size: 25px;
   color: rgb(56, 77, 197);
   position: absolute;
-  margin-top: 11%;
+  margin-top: 13%;
   margin-left: 18%;
 }
 
